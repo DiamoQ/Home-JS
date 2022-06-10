@@ -1,0 +1,14 @@
+{
+  "proxy": {
+    "/messenger/ws": {
+      "target": "ws://localhost:8282",
+      "ws": true
+    },
+    "/messenger/upload-photo": {
+      "target": "http://localhost:8282"
+    },
+    "/messenger/photos": {
+      "target": "http://localhost:8282"
+    }
+  }
+}
